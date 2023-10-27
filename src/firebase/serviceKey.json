@@ -1,0 +1,15 @@
+{
+    "serviceAccount": {
+        "type": "service_account",
+        "project_id": "laserpigeondeterrent",
+        "private_key_id": "40217871313ae0b8ac90dc761d49619702f8547d",
+        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwhJFbmB1BiLCl\n504KqBF9Cts/Zh/ToOjNrXQsG2gqhedY9L9JdGTgRPRF1qR0p2Q97DREDKKV0C2Z\nKEWlWN7MxxhapnbgiS7lbot+gCr4myqx39n547/wdWly9ot9hJ9BwI2SEWu6MVF7\nVzY3W41dZsX6LwckA+ZrAjPqpCgZ9UUmHEJ4HDvXDOMoHaBMx7p5AgwWGsUcx9Bm\nOKizc2H2MZ+JYu3u0iy3V+DFE14GffkSdkK3bBtQ92BB2Q2RhY02TUq1VbHIXK3G\nAlc3EzSVSK20THGWqaaWbrYJ+2pW7y7ft58/TGDld6mI2/catHhElu7RkbyMfLZ4\n4BlnpZ0dAgMBAAECggEABLrImketIQBkm01jTe3K6irMTRqTZ7w8AKbRIg1p8Rm9\nZSjJp1IzEb9HPEfQCEAj83TMwbYE9TaqwhvOIewLrDj5chRbwxBp7UPVAQK2JAsk\nTbfNw2BS2EKNHMN2YVqYWc6q/GrzE/4WTNO9ZCZT11jVnSp9an2gQuXANl1Hpcpd\nGFr3UU7cQYtVymljY3zQUBnSCg7tlkwNpBn5LSTeNEMuzHQHl4ZHj+EXh/oh4iX0\nssYWiI5I1pAOto5l3hARt5LdpgIk7A7E0tndqlHRDjtmXeYhmwFwDmHEAG/ih/iC\nT/2uk18ARhjpLg4jtO9O78MCQQwNQEeC2kxwfiSeEQKBgQD2GS7km6AfMXwVlDBl\n7HmlR+8AvDvyOnqWhIKgX+l2y0JMnIpGRiD+fH0OboBc7Gzb3MzIb4PVLQu0HIcM\niCbluOaUx2PSrzA6o4PHMNDacgyR5J860z5mNV7n5X7QJqw8bEyY52BSuqmUnfmS\ntmVTqdXIEUtlhDyIBbPbht3sCwKBgQC3nrREKbmydKQky3HsG3bukiX539o11vuY\nVBA7xYluNc/4l0uHEWKW4YnZw2Eqds9jFJmKzn6FlFYzox4K4gRMkk807WRS0qiH\n5EoBIJOACO1MBdYbMJs0vhlfBi4HQeVPrlD+BqKhitnZlm2BrxhYo80afzWtSgjo\nyr9evaEsdwKBgCR9BWPl4y7c0m4Mo8Ro9HxaFwi/4A+BNi3dBdUrg10WtATR7PqQ\naVHyOUSLg8LDVzyeF0rcpepUnHifBjMIeOP0r1N94MIbMYZwOhitlzncURrMkANT\n0NusrB6r+0p3gXAQCqddHv4FKSGc7qUfIBTwiH76eXhay/LLDajN7VeTAoGBAIm8\n8gqDpjm4h3zWY8GyJHf3h6c2BVEH0DlHLdo4ZswWb8hRbaWHJAZ8btS8XAHnl9AC\nHt9h4MTBLhyUCrAtNP5fbi0MuonqXeN6Gw1Xa23KxH6XjjFdN7/Lrep7D0IAa0xn\nPXggcBRvvNUco055kvDDBtMOg6xW8fH2TLF73BAnAoGBAKTCq0SuleGmKilFC2zC\nXS96nq/+lbkxiwC+68CWjWsi2xnMc63gsLhHO2Dk3KubJZHx64y/96eyuDscEcCq\nBW2a6NabqMFIaNSC1Bwpv+BIcxFff+NQ+L5BqhI4ybrHewgM1bKtuI895Ketk4Qp\nYw2jGmlzHL8b8XMvCcFfUriI\n-----END PRIVATE KEY-----\n",
+        "client_email": "firebase-adminsdk-wt0to@laserpigeondeterrent.iam.gserviceaccount.com",
+        "client_id": "117036433324931873401",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-wt0to%40laserpigeondeterrent.iam.gserviceaccount.com",
+        "universe_domain": "googleapis.com"
+    }
+}
