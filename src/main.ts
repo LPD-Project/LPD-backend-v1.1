@@ -15,7 +15,7 @@ async function bootstrap() {
   app.use(cors());
 
   // Use 0.0.0.0 for all available network interfaces
-  await app.listen(3000);
+  await app.listen(3000,'0.0.0.0');
 
 }
 
