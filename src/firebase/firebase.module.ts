@@ -14,9 +14,12 @@ const serviceAccountData = data.serviceAccount;
     providers : [{
         provide : 'FirebaseAdmin' , 
         useFactory : () => {
-            return admin.initializeApp({credential: admin.credential.cert(serviceAccountData) });
+            return admin.initializeApp({credential: admin.credential.cert(serviceAccountData) 
+            ,storageBucket: 'gs://laserpigeondeterrent.appspot.com'});
         }
     }] , 
     exports: ['FirebaseAdmin'] ,
 })
+
+
 export class FirebaseModule {}

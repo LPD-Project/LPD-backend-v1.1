@@ -14,9 +14,11 @@ async function bootstrap() {
   // Enable CORS for all routes
   app.use(cors());
 
+
   // Use 0.0.0.0 for all available network interfaces
   await app.listen(3000,'0.0.0.0');
 
 }
 
 bootstrap();
+

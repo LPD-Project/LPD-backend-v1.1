@@ -4,7 +4,7 @@ import { FirebaseModule } from 'src/firebase/firebase.module';
 
 @Module({
     imports: [FirebaseModule],
-    providers : [GateWayWebSocket ]
+    providers: [GateWayWebSocket]
 })
 export class GatewayModule {
 }
