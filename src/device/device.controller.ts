@@ -8,6 +8,45 @@ export class DeviceController {
     // constructor(private gateway: GateWayWebSocket) {}
     constructor(private readonly deviceService: DeviceService) { }
 
+    //  Add state update API (laser , cam) call from raspi
+
+
+    @Post('/data')
+    async deviceData(@Req() req: Request, @Res() res: Response): Promise<void> {
+        try {  
+
+            console.log ( "getting your dataaaa .....");
+
+            console.log( " req body ", req.body);
+
+            const user = new User(req.headers.email.toString(), req.headers.uid.toString())
+
+            
+            const deviceData = await this.deviceService.getDeviceData( user.uid , req.body.device_serial_code);
+
+            console.log( "deviceData is ",deviceData );
+
+            if ( deviceData) {
+
+                res.status(200).json({ 'laserState' : deviceData['laserState'] , 'cameraState' : deviceData['cameraState']})
+
+            } else {
+
+                res.status(500).json({ 'message': "Internal Server Error after search" })
+
+            }
+
+        } catch (err) {
+
+            console.log(err)
+
+            res.status(500).json({ error: 'Internal Server Error' })
+
+        }
+
+    }
+
+
     @Get('/availableDevices')
     async availableDevice(@Req() req: Request, @Res() res: Response): Promise<void> {
         try {  

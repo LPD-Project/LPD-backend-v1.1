@@ -349,6 +349,35 @@ export class DeviceService {
 
     }
 
+
+    async getDeviceData( userId: string , deviceId: string ) {
+        try {
+            const querySnapshot = await this.firebaseAdmin.firestore()
+                .collection('Devices')
+                .where("deviceId", "==", deviceId)
+                .limit(1)
+                .get()
+
+            if (!querySnapshot.empty) {
+                const deviceData = querySnapshot.docs[0].data();
+
+                console.log( deviceData [ 'laserState'] , "laserstate" )
+                console.log( deviceData [ 'cameraState'] , "camstate" )
+
+                return deviceData
+
+            } else {
+                // if not paired return empty list 
+                return null
+            }
+
+        } catch (e) {
+            return null
+        }
+
+    }
+
+
     async getAvailableDevice(userId: string) {
         try {
             const querySnapshot = await this.firebaseAdmin.firestore()
